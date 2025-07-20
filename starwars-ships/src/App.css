@@ -1,0 +1,112 @@
+.app-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 30%, #1b1c29 60%, #3a2347 100%);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-family: 'Star Jedi', Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 15 em;
+}
+
+.search-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-row input {
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  border: none;
+}
+
+.search-row button {
+  background: #3a2347;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 0.5rem 1.5rem;
+} 
+
+.starship-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.starship-card {
+  background: rgba(30, 30, 40, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 0 16px #0008;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.starship-card:hover {
+  transform: scale(1.04);
+  box-shadow:  0 0 32px #000a;
+}
+
+.starship-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  height: 120px;
+  object-fit: cover;
+}
+
+.more-btn {
+  display: block;
+  margin: 2rem auto;
+  background: #3a2347;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 0.8rem 2rem;
+}
+
+.starship-detail {
+  max-width: 440px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(36,35,44,0.98);
+  border-radius: 20px;
+  box-shadow: 0 0 16px #0009;
+  text-align: center;
+  position: relative;
+}
+
+.starship-detail img {
+  width: 220px;
+  border-radius: 14px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.back-btn {
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #3a8bd9;
+  cursor: pointer;
+}
+
+.detail-info {
+  text-align: left;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #e1e1e1;
+}
